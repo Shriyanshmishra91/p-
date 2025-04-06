@@ -1,0 +1,416 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "f811096d-bc8e-4d07-b99b-f6954ab6c952",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello world\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"hello world\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "0323f50d-8a4d-4059-858f-bc9c3dfb4b5d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=3"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a542f84a-d1e8-461d-ab92-8e4db67bcdee",
+   "metadata": {},
+   "source": [
+    "### a"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "87bbf778-27eb-473a-bf17-3dbcf3534627",
+   "metadata": {},
+   "source": [
+    "#varible|indefiers>>placeholder wherewekeep variteyof datawhichcanbeusewritelogic\n",
+    "#Number>>integers|folat\n",
+    "Characters>>string in python \n",
+    "#true|false>>boolean\n",
+    "#None\n",
+    "complex"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "658c4426-fe16-4680-be70-8a5dc593736d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b=3\n",
+    "b"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "9341d9b7-8954-43c3-83dd-6b277464138b",
+   "metadata": {},
+   "source": [
+    "varible isa resverd memory space for string value \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "a31dc835-50e7-41f2-bc61-2ee697849fb1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4.5"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b=4.5\n",
+    "b"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "c24660ab-774c-4bd7-a8af-7568fb5140c0",
+   "metadata": {},
+   "source": [
+    "a memory will becreatedwith valve of the varible"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "72bd21a4-0b0f-4ccd-a3ab-95169ebadd1e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Ajay'"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c=\"Ajay\"\n",
+    "c"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "24f77680-4381-4ecc-8453-0a01416beb72",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "93f539fe-6966-47ba-9909-31d921f63e4a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a=3\n",
+    "a\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "656b9950-e3ef-4720-b682-9da727b92a32",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "bdfe7f31-1b5f-4312-b176-c89a4d5bb025",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4.5"
+      ]
+     },
+     "execution_count": 32,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b=4.5\n",
+    "b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "8dcb4ef7-6e9e-4600-a3fe-2803dc1212af",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "43b36346-15bf-4e72-89b9-7ef676ceca77",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "bool"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c=True\n",
+    "type(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "e449ca3d-805a-4560-8fba-3408e316b270",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 44,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "True-False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "edc3d7ad-d76c-4347-befc-cf2807bb322d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 46,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "True*False"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "07e3250b-0e70-41b4-bb46-03c923d836e4",
+   "metadata": {},
+   "source": [
+    "x+iy>> comlex number"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "45ccfb3c-3261-4e44-941b-47df223929ec",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "complex"
+      ]
+     },
+     "execution_count": 52,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "com=5+6j\n",
+    "type(com)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "93de37cd-3217-4ba5-8648-176e55bd52ec",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5.0"
+      ]
+     },
+     "execution_count": 57,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "com.real"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "0c01249d-af27-4fb9-b72b-5a91c8ba1764",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "6.0"
+      ]
+     },
+     "execution_count": 63,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "com.imag"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "463e1377-696c-4d48-99d7-14d05d4bdd18",
+   "metadata": {},
+   "source": [
+    "Ruleof defineding a varible>> a varible start with a letter or(alfabhet) under score  charcter "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bd599524-3956-443b-8b00-7fd6d0c59dd4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
